@@ -1,0 +1,17 @@
+c:\Users\jarangom\Documents\Visual Studio 2010\Projects\Iscav1\Clases\bin\Debug\Clases.dll
+c:\Users\jarangom\Documents\Visual Studio 2010\Projects\Iscav1\Clases\bin\Debug\Clases.pdb
+c:\Users\jarangom\Documents\Visual Studio 2010\Projects\Iscav1\Clases\obj\Debug\Clases.dll
+c:\Users\jarangom\Documents\Visual Studio 2010\Projects\Iscav1\Clases\obj\Debug\Clases.pdb
+C:\Users\jarangom\documents\visual studio 2010\Projects\Iscav1\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\bin\Debug\Clases.dll
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\bin\Debug\Clases.pdb
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\obj\Debug\Clases.dll
+C:\Users\Will\Desktop\iscav\Iscav1\Clases\obj\Debug\Clases.pdb
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\bin\Debug\Clases.dll
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\bin\Debug\Clases.pdb
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.dll
+Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.pdb

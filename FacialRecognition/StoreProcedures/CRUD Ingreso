@@ -1,0 +1,6 @@
+id_ingreso	int	Unchecked
+faceid	int	Checked
+nombre	nvarchar(255)	Checked
+depto	nvarchar(50)	Checked
+horadetectada	datetime	Checked
+		Unchecked

@@ -1,0 +1,127 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.Designer.cs" caret="25017" fromTop="395" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Visita.Designer.cs" caret="19640" fromTop="34" />
+      <File id="FFFB3762-7A04-4AC6-AC6C-D26FA4B250DE/f:Propiedad.cs" caret="0" fromTop="0" />
+      <File id="FFFB3762-7A04-4AC6-AC6C-D26FA4B250DE/f:Propietario.cs" caret="0" fromTop="0" />
+      <File id="FFFB3762-7A04-4AC6-AC6C-D26FA4B250DE/f:Residente.cs" caret="598" fromTop="22" />
+      <File id="FFFB3762-7A04-4AC6-AC6C-D26FA4B250DE/f:Visita.cs" caret="0" fromTop="0" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Residente.Designer.cs" caret="23963" fromTop="29" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Visita.cs" caret="953" fromTop="21" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Residente.cs" caret="376" fromTop="5" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.cs" caret="376" fromTop="8" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.Designer.cs" caret="20554" fromTop="28" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Program.cs" caret="443" fromTop="17" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Menu.Designer.cs" caret="480" fromTop="14" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Menu.cs" caret="1053" fromTop="24" />
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="13" fromTop="0" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:iscavDBDataSet.Designer.cs" caret="20833" fromTop="25" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:Configuracion.cs" caret="388" fromTop="14" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="8709" fromTop="3" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.cs" caret="3812" fromTop="131" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:MetodosDatos.cs" caret="5802" fromTop="26" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="4005" fromTop="11" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.cs" caret="968" fromTop="24" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.cs" caret="621" fromTop="20" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.cs" caret="527" fromTop="11" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Residente.cs" caret="615" fromTop="27" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Residente.cs" caret="518" fromTop="23" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Residente.cs" caret="1057" fromTop="22" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Visita.cs" caret="612" fromTop="26" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Visita.cs" caret="508" fromTop="20" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Visita.cs" caret="953" fromTop="21" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propietario.cs" caret="1477" fromTop="8" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.cs" caret="4164" fromTop="23" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.cs" caret="1377" fromTop="24" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="821" fromTop="20" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="339" fromTop="12" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="6395" fromTop="37" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="5653" fromTop="25" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="6949" fromTop="34" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="7680" fromTop="43" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="8236" fromTop="39" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="8691" fromTop="42" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="9365" fromTop="36" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="9644" fromTop="42" />
+      <File id="A20435AF-D0BA-4D3B-ABE4-A6E8D890E2BA/f:AccesoDatos.cs" caret="9189" fromTop="33" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.cs" caret="2935" fromTop="29" />
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="447" fromTop="13" />
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="3589" fromTop="13" />
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="3738" fromTop="17" />
+      <File id="378EDA3D-4CC3-4DB4-A602-F043C2042056/f:AccesoLogica.cs" caret="3941" fromTop="8" />
+      <File id="A5B271EC-640C-4C83-888E-AB2587C5EE18/f:Propiedad.cs" caret="2727" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="216" />
+      <Item value="using" priority="216" />
+      <Item value="System" priority="154" />
+      <Item value="Data" priority="134" />
+      <Item value="SqlClient" priority="53" />
+      <Item value="visita" priority="128" />
+      <Item value="propiedad" priority="96" />
+      <Item value="Clases" priority="30" />
+      <Item value="Menu" priority="29" />
+      <Item value="Id_visita" priority="31" />
+      <Item value="Nombre" priority="31" />
+      <Item value="ApellidoP" priority="31" />
+      <Item value="ApellidoM" priority="31" />
+      <Item value="Rut" priority="31" />
+      <Item value="Fecha_in" priority="31" />
+      <Item value="Fecha_sal" priority="31" />
+      <Item value="Id_Propiedad" priority="64" />
+      <Item value="direccion" priority="64" />
+      <Item value="ubicacion" priority="64" />
+      <Item value="estado" priority="64" />
+      <Item value="id_propietario" priority="64" />
+      <Item value="id_residente" priority="96" />
+      <Item value="id_visita" priority="64" />
+      <Item value="cobros" priority="64" />
+      <Item value="pago" priority="64" />
+      <Item value="txtCobros" priority="31" />
+      <Item value="txtPagos" priority="31" />
+      <Item value="dataGridPropiedad" priority="31" />
+      <Item value="AccesoLogica`0" priority="31" />
+      <Item value="string" priority="31" />
+      <Item value="int" priority="63" />
+      <Item value="id_propiedad" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iscav1.Propietario">
+      <Item value="btnModPropietario" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Datos.AccesoDatos">
+      <Item value="ModificarVisita`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Negocio.AccesoLogica">
+      <Item value="InsertPropiedad`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Negocio.AccesoLogica">
+      <Item value="ObtenerPropiedad`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

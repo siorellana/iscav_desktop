@@ -1,0 +1,6 @@
+faceid	        int	Checked
+nombre	        nvarchar(255)	    
+depto	        int	Checked
+tipopersona	    nvarchar(50)	    
+fotoPersona	    image	    
+activo          nvarchar(50)

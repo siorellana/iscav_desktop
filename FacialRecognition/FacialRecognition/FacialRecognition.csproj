@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFDD5773-4CDF-40F8-A761-1E69BD19C7C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FacialRecognition</RootNamespace>
+    <AssemblyName>FacialRecognition</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AlphaBlendTextBox">
+      <HintPath>..\..\..\..\AlphaBlendTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV">
+      <HintPath>..\..\..\opencv\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\opencv\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>..\..\..\opencv\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoLogica.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="dbprodDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbprodDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbprodDataSet1.cs">
+      <DependentUpon>dbprodDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbprodDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbprodDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbprodDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbprodDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbprodDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbprodDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EigenObjectRecognizer.cs" />
+    <Compile Include="modReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modReporte.Designer.cs">
+      <DependentUpon>modReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVehiculo.Designer.cs">
+      <DependentUpon>FormVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVehiculo.Designer.cs">
+      <DependentUpon>FrmVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modDepto101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDepto101.Designer.cs">
+      <DependentUpon>modDepto101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepto.Designer.cs">
+      <DependentUpon>FrmDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEdificio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEdificio.Designer.cs">
+      <DependentUpon>FrmEdificio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersona.Designer.cs">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuLogin.Designer.cs">
+      <DependentUpon>menuLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDepto.Designer.cs">
+      <DependentUpon>modDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modEnroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modEnroll.Designer.cs">
+      <DependentUpon>modEnroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modPersona.Designer.cs">
+      <DependentUpon>modPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="modDeteccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDeteccion.Designer.cs">
+      <DependentUpon>modDeteccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuConserje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuConserje.Designer.cs">
+      <DependentUpon>menuConserje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectMenu.Designer.cs">
+      <DependentUpon>SelectMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormVehiculo.resx">
+      <DependentUpon>FormVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepto.resx">
+      <DependentUpon>FrmDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEdificio.resx">
+      <DependentUpon>FrmEdificio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVehiculo.resx">
+      <DependentUpon>FrmVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuLogin.resx">
+      <DependentUpon>menuLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modDepto.resx">
+      <DependentUpon>modDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modDepto101.resx">
+      <DependentUpon>modDepto101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modEnroll.resx">
+      <DependentUpon>modEnroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modPersona.resx">
+      <DependentUpon>modPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modReporte.resx">
+      <DependentUpon>modReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="modDeteccion.resx">
+      <DependentUpon>modDeteccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuConserje.resx">
+      <DependentUpon>menuConserje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectMenu.resx">
+      <DependentUpon>SelectMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="dbprodDataSet.xsc">
+      <DependentUpon>dbprodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbprodDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbprodDataSet.xss">
+      <DependentUpon>dbprodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet1.xsc">
+      <DependentUpon>dbprodDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbprodDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbprodDataSet1.xss">
+      <DependentUpon>dbprodDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet2.xsc">
+      <DependentUpon>dbprodDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbprodDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbprodDataSet2.xss">
+      <DependentUpon>dbprodDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet31.xsc">
+      <DependentUpon>dbprodDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="dbprodDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbprodDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbprodDataSet31.xss">
+      <DependentUpon>dbprodDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Conexion.datasource" />
+    <None Include="Properties\DataSources\FacialRecognition.dbprodDataSet1TableAdapters.tbedificioTableAdapter.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IscavLegacy\Datos\Datos.csproj">
+      <Project>{a20435af-d0ba-4d3b-abe4-a6e8d890e2ba}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IscavLegacy\Iscav1\Presentacion.csproj">
+      <Project>{A5B271EC-640C-4C83-888E-AB2587C5EE18}</Project>
+      <Name>Presentacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IscavLegacy\Negocio\Negocio.csproj">
+      <Project>{378eda3d-4cc3-4db4-a602-f043c2042056}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\040-concept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-ISCAV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_UNO_424547.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_depto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_840_500.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
