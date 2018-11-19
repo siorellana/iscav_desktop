@@ -1,0 +1,16 @@
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\b\IscavLegacy\Iscav1\bin\Debug\Iscav1.exe.config
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\b\IscavLegacy\Iscav1\bin\Debug\Iscav1.exe
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Presentacion.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Enrola.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Login.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Menu.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Properties.Resources.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Propiedad.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Reporte.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Residente.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.SelectMenuAdmin.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.Visita.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Presentacion.csproj.GenerateResource.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Presentacion.csproj.CoreCompileInputs.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Presentacion.csproj.CopyComplete
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Presentacion\x86\Debug\Iscav1.exe

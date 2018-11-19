@@ -92,7 +92,7 @@
             this.btnDetectCam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetectCam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnDetectCam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
-            this.btnDetectCam.Location = new System.Drawing.Point(333, 171);
+            this.btnDetectCam.Location = new System.Drawing.Point(348, 174);
             this.btnDetectCam.Name = "btnDetectCam";
             this.btnDetectCam.Size = new System.Drawing.Size(116, 54);
             this.btnDetectCam.TabIndex = 3;
@@ -103,7 +103,7 @@
             // 
             // imageBox2
             // 
-            this.imageBox2.Location = new System.Drawing.Point(622, 86);
+            this.imageBox2.Location = new System.Drawing.Point(595, 105);
             this.imageBox2.Name = "imageBox2";
             this.imageBox2.Size = new System.Drawing.Size(100, 100);
             this.imageBox2.TabIndex = 4;

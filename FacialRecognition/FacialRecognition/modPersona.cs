@@ -482,6 +482,12 @@ namespace Iscav1
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
     
 }

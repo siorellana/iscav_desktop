@@ -148,7 +148,7 @@ namespace FacialRecognition
                 //Face Detector
                 MCvAvgComp[][] facesDetected = gray.DetectHaarCascade(
               face,
-              1.3,
+              1.2,
               10,
               Emgu.CV.CvEnum.HAAR_DETECTION_TYPE.DO_CANNY_PRUNING,
               new Size(20, 20));
@@ -164,7 +164,7 @@ namespace FacialRecognition
                     //initialize result,t and gray if (trainingImages.ToArray().Length != 0)
                     {
                         //termcriteria against each image to find a match with it perform different iterations
-                        MCvTermCriteria termCrit = new MCvTermCriteria(ContTrain, 0.001);
+                        MCvTermCriteria termCrit = new MCvTermCriteria(ContTrain, 0.002);
                         //call class by creating object and pass parameters
 #pragma warning disable CS0436 // Type conflicts with imported type
 #pragma warning disable CS0436 // Type conflicts with imported type

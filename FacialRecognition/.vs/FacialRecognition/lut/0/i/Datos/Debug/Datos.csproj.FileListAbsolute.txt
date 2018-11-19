@@ -1,0 +1,5 @@
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\b\IscavLegacy\Datos\bin\Debug\Datos.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Datos\Debug\Datos.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Datos\Debug\Datos.csproj.CoreCompileInputs.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Datos\Debug\Datos.csproj.CopyComplete
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\.vs\FacialRecognition\lut\0\i\Datos\Debug\Datos.dll

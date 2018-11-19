@@ -180,3 +180,4 @@ C:\Users\Will\Desktop\iscavSiorellana\iscav\FacialRecognition\FacialRecognition\
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.FormVehiculo.resources
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.FrmVehiculo.resources
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.modReporte.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.modVehiculo.resources

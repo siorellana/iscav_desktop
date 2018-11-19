@@ -52,7 +52,7 @@ namespace FacialRecognition
             }
             catch (Exception e)
             {
-                MessageBox.Show("No hay personas registradas, ingrese algunas antes de activar la detección." + e);
+                MessageBox.Show("No hay personas registradas, ingrese algunas antes de activar la detección.");
             }
             //now see go to created folder and test the result
             //done

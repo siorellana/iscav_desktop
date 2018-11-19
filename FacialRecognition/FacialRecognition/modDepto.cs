@@ -146,5 +146,11 @@ namespace FacialRecognition
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

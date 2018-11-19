@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Iscav1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,20 @@ namespace FacialRecognition
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            SelectMenu sm = new SelectMenu();
+            sm.Show();
+            this.Hide();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
 
         }
     }
