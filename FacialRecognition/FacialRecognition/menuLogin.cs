@@ -159,18 +159,104 @@ namespace FacialRecognition
         public static string nDepto { get; set; }
     }
 
+    public static class numEstacionamiento
+    {
+        public static string numeroEstacionamiento { get; set; }
+    }
+
     public static class estacionamiento1
     {
-        public static string est1 { get; set; }
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
     }
 
     public static class estacionamiento2
     {
-        public static string est2 { get; set; }
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
     }
 
     public static class estacionamiento3
     {
-        public static string est3 { get; set; }
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
     }
+
+    public static class estacionamiento4
+    {
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
+    }
+
+    public static class estacionamiento5
+    {
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
+    }
+
+    public static class estacionamiento6
+    {
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
+    }
+
+    public static class estacionamiento7
+    {
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
+    }
+
+    public static class estacionamiento8
+    {
+        public static string status { get; set; }
+        public static string nombre { get; set; }
+        public static string depto { get; set; }
+        public static string patente { get; set; }
+        public static string horaInicio { get; set; }
+        public static string tiempo { get; set; }
+
+    }
+
 }

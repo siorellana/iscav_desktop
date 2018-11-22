@@ -50,10 +50,7 @@ namespace FacialRecognition
 
         private void btnVehiculo_Click(object sender, EventArgs e)
         {
-            FrmVehiculo vehiculo = new FrmVehiculo();
-
-            vehiculo.Show();
-
+           
 
             this.Hide();
 

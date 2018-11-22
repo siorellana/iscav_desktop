@@ -102,12 +102,6 @@
     <Compile Include="FormVehiculo.Designer.cs">
       <DependentUpon>FormVehiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmVehiculo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmVehiculo.Designer.cs">
-      <DependentUpon>FrmVehiculo.cs</DependentUpon>
-    </Compile>
     <Compile Include="modDepto101.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,9 +178,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEdificio.resx">
       <DependentUpon>FrmEdificio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmVehiculo.resx">
-      <DependentUpon>FrmVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menuLogin.resx">
       <DependentUpon>menuLogin.cs</DependentUpon>

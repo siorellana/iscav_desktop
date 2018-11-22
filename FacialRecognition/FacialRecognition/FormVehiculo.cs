@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -18,8 +19,11 @@ namespace FacialRecognition
 
         private void FormVehiculo_Load(object sender, EventArgs e)
         {
+            lblEstacionamiento.Text = FacialRecognition.numEstacionamiento.numeroEstacionamiento;
             // TODO: esta línea de código carga datos en la tabla 'dbprodDataSet1.tbdepto' Puede moverla o quitarla según sea necesario.
-            this.tbdeptoTableAdapter.Fill(this.dbprodDataSet1.tbdepto);
+            //this.tbdeptoTableAdapter.Fill(this.dbprodDataSet1.tbdepto);
+
+            
 
         }
 
@@ -43,10 +47,10 @@ namespace FacialRecognition
            
            
         
-                cmd.Parameters["@depto"].Value = int.Parse(combodepto.Text);
+              /*  cmd.Parameters["@depto"].Value = int.Parse(combodepto.Text);
                 cmd.Parameters["@color"].Value = txtcolor.Text;
                 cmd.Parameters["@marca"].Value = txtmarca.Text;
-                cmd.Parameters["@patente"].Value = txtpatente.Text;
+                cmd.Parameters["@patente"].Value = txtpatente.Text;*/
 
               
            
@@ -92,6 +96,32 @@ namespace FacialRecognition
         private void txtpatente_Leave(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPatente_Click(object sender, EventArgs e)
+        {
+            string[] paths = Directory.GetFiles(Application.StartupPath + "/TrainedFaces/patente", "*.png");
+            List<string> images = paths.ToList();
+            Random random = new Random();
+            imgPatente.ImageLocation = paths[random.Next(0, images.Count - 1)];
+            if (imgPatente.ImageLocation.Contains("1.png"))
+            {
+                txtPatente.Text = "text here";
+            }
+            else
+            {
+                label1.Text = "label1";
+            }
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

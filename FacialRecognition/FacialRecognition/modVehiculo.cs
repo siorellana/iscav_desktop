@@ -35,5 +35,12 @@ namespace FacialRecognition
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void btnEstacionamiento1_Click(object sender, EventArgs e)
+        {
+            FacialRecognition.numEstacionamiento.numeroEstacionamiento = btnEstacionamiento1.Text;
+            FormVehiculo form = new FormVehiculo();
+            form.Show();
+        }
     }
 }
