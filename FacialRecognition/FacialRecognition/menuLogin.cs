@@ -168,11 +168,10 @@ namespace FacialRecognition
     {
         public static string status { get; set; }
         public static string nombre { get; set; }
-
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
@@ -184,7 +183,7 @@ namespace FacialRecognition
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
@@ -196,7 +195,7 @@ namespace FacialRecognition
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
@@ -208,7 +207,7 @@ namespace FacialRecognition
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
@@ -220,7 +219,7 @@ namespace FacialRecognition
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
@@ -232,7 +231,7 @@ namespace FacialRecognition
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
-        public static string tiempo { get; set; }
+        public static int tiempo { get; set; }
 
     }
 
