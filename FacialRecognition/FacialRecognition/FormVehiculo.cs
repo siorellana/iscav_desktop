@@ -258,11 +258,8 @@ namespace FacialRecognition
             if (FacialRecognition.estacionamiento1.tiempo == 0)
             {
                 timer1.Stop();
-                MessageBox.Show("El estacionamiento 1 ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento1.depto);
-                FacialRecognition.estacionamiento1.nombre = null;
-                FacialRecognition.estacionamiento1.depto = null;
-                FacialRecognition.estacionamiento1.horaInicio = null;
-                FacialRecognition.estacionamiento1.patente = null;
+                MessageBox.Show("El estacionamiento 1 ocupado por patente " + FacialRecognition.estacionamiento1.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento1.depto);
+               
                 timer1.Enabled = false;
 
 
@@ -277,10 +274,7 @@ namespace FacialRecognition
             {
                 timer2.Stop();
                 MessageBox.Show("El estacionamiento 2 ocupado por patente " + FacialRecognition.estacionamiento2.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento2.depto);
-                FacialRecognition.estacionamiento2.nombre = null;
-                FacialRecognition.estacionamiento2.depto = null;
-                FacialRecognition.estacionamiento2.horaInicio = null;
-                FacialRecognition.estacionamiento2.patente = null;
+                
                 timer2.Enabled = false;
 
 
@@ -294,10 +288,7 @@ namespace FacialRecognition
             {
                 timer3.Stop();
                 MessageBox.Show("El estacionamiento 3 ocupado por patente " + FacialRecognition.estacionamiento3.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento3.depto);
-                FacialRecognition.estacionamiento3.nombre = null;
-                FacialRecognition.estacionamiento3.depto = null;
-                FacialRecognition.estacionamiento3.horaInicio = null;
-                FacialRecognition.estacionamiento3.patente = null;
+                
                 timer3.Enabled = false;
             }
         }
@@ -309,10 +300,7 @@ namespace FacialRecognition
             {
                 timer4.Stop();
                 MessageBox.Show("El estacionamiento 4 ocupado por patente " + FacialRecognition.estacionamiento4.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento4.depto);
-                FacialRecognition.estacionamiento4.nombre = null;
-                FacialRecognition.estacionamiento4.depto = null;
-                FacialRecognition.estacionamiento4.horaInicio = null;
-                FacialRecognition.estacionamiento4.patente = null;
+                
                 timer4.Enabled = false;
             }
         }
@@ -324,10 +312,7 @@ namespace FacialRecognition
             {
                 timer5.Stop();
                 MessageBox.Show("El estacionamiento 5 ocupado por patente " + FacialRecognition.estacionamiento5.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento5.depto);
-                FacialRecognition.estacionamiento5.nombre = null;
-                FacialRecognition.estacionamiento5.depto = null;
-                FacialRecognition.estacionamiento5.horaInicio = null;
-                FacialRecognition.estacionamiento5.patente = null;
+                
                 timer5.Enabled = false;
             }
         }
@@ -339,10 +324,7 @@ namespace FacialRecognition
             {
                 timer6.Stop();
                 MessageBox.Show("El estacionamiento 6 ocupado por patente " + FacialRecognition.estacionamiento6.patente + " ya ha cumplido su tiempo, llamar a " + FacialRecognition.estacionamiento6.depto);
-                FacialRecognition.estacionamiento6.nombre = null;
-                FacialRecognition.estacionamiento6.depto = null;
-                FacialRecognition.estacionamiento6.horaInicio = null;
-                FacialRecognition.estacionamiento6.patente = null;
+                
                 timer6.Enabled = false;
             }
         }

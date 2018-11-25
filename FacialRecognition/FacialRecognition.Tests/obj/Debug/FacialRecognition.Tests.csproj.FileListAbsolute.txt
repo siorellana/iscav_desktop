@@ -21,3 +21,5 @@ Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecogniti
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition.Tests\obj\Debug\FacialRecognition.Tests.csproj.CopyComplete
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition.Tests\obj\Debug\FacialRecognition.Tests.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition.Tests\obj\Debug\FacialRecognition.Tests.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition.Tests\bin\Debug\FacialRecognition.Tests.dll.CodeAnalysisLog.xml
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition.Tests\bin\Debug\FacialRecognition.Tests.dll.lastcodeanalysissucceeded

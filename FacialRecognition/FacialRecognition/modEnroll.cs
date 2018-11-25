@@ -52,7 +52,7 @@ namespace FacialRecognition
             }
             catch (Exception e)
             {
-                MessageBox.Show("No hay personas registradas, ingrese algunas antes de activar la detección.");
+                MessageBox.Show("No hay personas registradas, ingrese algunas antes de activar la detección." + e);
             }
             //now see go to created folder and test the result
             //done
@@ -122,23 +122,6 @@ new Size(20, 20));
         private void lblFaceID_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnAtras_Click(object sender, EventArgs e)
-        {
-            modPersona p = new modPersona();
-            menuConserje c = new menuConserje();
-            if (FacialRecognition.validador.validarDetec == "Persona")
-            {
-                this.Hide();
-            }
-            else
-            {
-
-                c.Show();
-            }
-
-            this.Hide();
         }
 
         private void btnDetectCam_Click(object sender, EventArgs e)

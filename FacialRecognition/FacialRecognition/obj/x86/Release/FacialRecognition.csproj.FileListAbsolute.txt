@@ -1,0 +1,17 @@
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.FormVehiculo.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.FrmDepto.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.FrmEdificio.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.menuLogin.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modDepto.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modDepto101.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modEnroll.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\Iscav1.modPersona.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modReporte.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modVehiculo.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.Properties.Resources.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.modDeteccion.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.menuConserje.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\Iscav1.SelectMenu.resources
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.csproj.GenerateResource.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Release\FacialRecognition.csproj.CoreCompileInputs.cache

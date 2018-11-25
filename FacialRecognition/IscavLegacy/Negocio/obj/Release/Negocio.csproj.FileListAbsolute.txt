@@ -1,0 +1,9 @@
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Release\Negocio.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Release\Negocio.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Release\Datos.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Release\Datos.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Release\Negocio.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Release\Negocio.csproj.CoreCompileInputs.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Release\Negocio.csproj.CopyComplete
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Release\Negocio.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Release\Negocio.pdb

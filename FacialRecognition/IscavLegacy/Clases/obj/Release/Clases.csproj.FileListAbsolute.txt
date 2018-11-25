@@ -1,0 +1,6 @@
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Release\Clases.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Release\Clases.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Release\Clases.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Release\Clases.csproj.CoreCompileInputs.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Release\Clases.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Release\Clases.pdb

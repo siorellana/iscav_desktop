@@ -15,3 +15,11 @@ Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Cla
 Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.dll
 Z:\siorellana en mi Mac\Documents\Projects\ProyectoIscav\Iscav Reborn\Iscav1\Clases\obj\Debug\Clases.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.pdb
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.dll.CodeAnalysisLog.xml
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.dll.lastcodeanalysissucceeded
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.dll
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.pdb

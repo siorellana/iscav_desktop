@@ -25,7 +25,14 @@ namespace FacialRecognition
 
         private void menuLogin_Load(object sender, EventArgs e)
         {
-
+           
+            FacialRecognition.estacionamiento1.tiempo = -1;
+            FacialRecognition.estacionamiento2.tiempo = -1;
+            FacialRecognition.estacionamiento3.tiempo = -1;
+            FacialRecognition.estacionamiento4.tiempo = -1;
+            FacialRecognition.estacionamiento5.tiempo = -1;
+            FacialRecognition.estacionamiento6.tiempo = -1;
+            FacialRecognition.tiempo.segundos = 60;
         }
 
         private void btningresar_Click(object sender, EventArgs e)
@@ -164,6 +171,12 @@ namespace FacialRecognition
         public static string numeroEstacionamiento { get; set; }
     }
 
+    public static class tiempo
+    {
+        public static int segundos { get; set; }
+    }
+
+
     public static class estacionamiento1
     {
         public static string status { get; set; }
@@ -179,7 +192,6 @@ namespace FacialRecognition
     {
         public static string status { get; set; }
         public static string nombre { get; set; }
-
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
@@ -191,7 +203,6 @@ namespace FacialRecognition
     {
         public static string status { get; set; }
         public static string nombre { get; set; }
-
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
@@ -215,7 +226,6 @@ namespace FacialRecognition
     {
         public static string status { get; set; }
         public static string nombre { get; set; }
-
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }
@@ -227,7 +237,6 @@ namespace FacialRecognition
     {
         public static string status { get; set; }
         public static string nombre { get; set; }
-
         public static string depto { get; set; }
         public static string patente { get; set; }
         public static string horaInicio { get; set; }

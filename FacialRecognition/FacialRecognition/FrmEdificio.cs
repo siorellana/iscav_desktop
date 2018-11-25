@@ -236,7 +236,9 @@ namespace FacialRecognition
             }
 
 
+#pragma warning disable CS0168 // La variable 'EX' se ha declarado pero nunca se usa
             catch (Exception EX)
+#pragma warning restore CS0168 // La variable 'EX' se ha declarado pero nunca se usa
             {
                 lblMensaje.Text = "No se logro ingresar una Propiedad";
                 throw;
