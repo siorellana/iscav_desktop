@@ -45,9 +45,9 @@
             this.lblHora = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnAtras = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageBox1 = new Emgu.CV.UI.ImageBox();
             this.groupBox1.SuspendLayout();
@@ -60,10 +60,10 @@
             // 
             // btnStartRec
             // 
-            this.btnStartRec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(151)))), ((int)(((byte)(0)))));
+            this.btnStartRec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
             this.btnStartRec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStartRec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartRec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
+            this.btnStartRec.ForeColor = System.Drawing.Color.Black;
             this.btnStartRec.Location = new System.Drawing.Point(96, 411);
             this.btnStartRec.Name = "btnStartRec";
             this.btnStartRec.Size = new System.Drawing.Size(136, 62);
@@ -107,6 +107,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Enabled = false;
             this.label1.Location = new System.Drawing.Point(16, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
@@ -117,6 +118,7 @@
             // lblFaceID
             // 
             this.lblFaceID.AutoSize = true;
+            this.lblFaceID.Enabled = false;
             this.lblFaceID.Location = new System.Drawing.Point(163, 145);
             this.lblFaceID.Name = "lblFaceID";
             this.lblFaceID.Size = new System.Drawing.Size(52, 13);
@@ -148,12 +150,14 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Enabled = false;
             this.label3.Location = new System.Drawing.Point(14, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 13);
             this.label3.TabIndex = 14;
             this.label3.Text = "Id de Persona:";
             this.label3.Visible = false;
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // label4
             // 
@@ -207,7 +211,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.lblDepto);
             this.groupBox1.Controls.Add(this.lblNombre);
-            this.groupBox1.Location = new System.Drawing.Point(421, 97);
+            this.groupBox1.Location = new System.Drawing.Point(461, 97);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(328, 299);
             this.groupBox1.TabIndex = 19;
@@ -227,20 +231,6 @@
             this.groupBox2.Size = new System.Drawing.Size(840, 60);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
-            // 
-            // btnAtras
-            // 
-            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(151)))), ((int)(((byte)(0)))));
-            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnAtras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
-            this.btnAtras.Location = new System.Drawing.Point(653, 12);
-            this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(136, 32);
-            this.btnAtras.TabIndex = 4;
-            this.btnAtras.Text = "Volver a Menu";
-            this.btnAtras.UseVisualStyleBackColor = false;
-            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
             // pictureBox3
             // 
@@ -262,6 +252,20 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
+            // 
+            // btnAtras
+            // 
+            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnAtras.ForeColor = System.Drawing.Color.Black;
+            this.btnAtras.Location = new System.Drawing.Point(653, 12);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(136, 32);
+            this.btnAtras.TabIndex = 4;
+            this.btnAtras.Text = "Volver a Menu";
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
             // pictureBox1
             // 
@@ -287,8 +291,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(219)))), ((int)(((byte)(244)))));
-            this.BackgroundImage = global::FacialRecognition.Properties.Resources.fondo_840_500;
+            this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnBack;
             this.ClientSize = new System.Drawing.Size(840, 500);
             this.ControlBox = false;

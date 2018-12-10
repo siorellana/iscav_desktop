@@ -30,5 +30,20 @@ namespace FacialRecognition
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void btnPiso1_Click(object sender, EventArgs e)
+        {
+            this.webBrowser1.Navigate("https://app.powerbi.com/view?r=eyJrIjoiODFmYTM3ZGQtMjg4Ny00NjcwLWJiYjgtNjkyOGEyODJiOTQ4IiwidCI6IjM4YTFlMGExLWI2YjEtNDJlOS1iM2E5LTU5NzYyNjY3MGIxNyIsImMiOjR9");
+        }
+
+        private void btnPiso2_Click(object sender, EventArgs e)
+        {
+            this.webBrowser1.Navigate("http://www.google.com");
+        }
+
+        private void btnPiso3_Click(object sender, EventArgs e)
+        {
+            this.webBrowser1.Navigate("http://www.facebook.com");
+        }
     }
 }

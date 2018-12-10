@@ -65,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoLogica.cs" />
+    <Compile Include="ADMEnrollcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMEnrollcs.Designer.cs">
+      <DependentUpon>ADMEnrollcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="dbprodDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -90,7 +96,19 @@
       <DependentUpon>dbprodDataSet31.xsd</DependentUpon>
     </Compile>
     <Compile Include="EigenObjectRecognizer.cs" />
+    <Compile Include="SelectMenuCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectMenuCon.Designer.cs">
+      <DependentUpon>SelectMenuCon.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="menuConserje2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuConserje2.designer.cs">
+      <DependentUpon>menuConserje2.cs</DependentUpon>
+    </Compile>
     <Compile Include="modEnroll.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,18 +183,15 @@
     <Compile Include="modDeteccion.Designer.cs">
       <DependentUpon>modDeteccion.cs</DependentUpon>
     </Compile>
-    <Compile Include="menuConserje.cs">
+    <Compile Include="SelectMenuAdm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menuConserje.Designer.cs">
-      <DependentUpon>menuConserje.cs</DependentUpon>
+    <Compile Include="SelectMenuAdm.Designer.cs">
+      <DependentUpon>SelectMenuAdm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SelectMenu.Designer.cs">
-      <DependentUpon>SelectMenu.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="ADMEnrollcs.resx">
+      <DependentUpon>ADMEnrollcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormVehiculo.resx">
       <DependentUpon>FormVehiculo.cs</DependentUpon>
     </EmbeddedResource>
@@ -220,11 +235,11 @@
     <EmbeddedResource Include="modDeteccion.resx">
       <DependentUpon>modDeteccion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menuConserje.resx">
-      <DependentUpon>menuConserje.cs</DependentUpon>
+    <EmbeddedResource Include="SelectMenuAdm.resx">
+      <DependentUpon>SelectMenuAdm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectMenu.resx">
-      <DependentUpon>SelectMenu.cs</DependentUpon>
+    <EmbeddedResource Include="SelectMenuCon.resx">
+      <DependentUpon>SelectMenuCon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="dbprodDataSet.xsc">

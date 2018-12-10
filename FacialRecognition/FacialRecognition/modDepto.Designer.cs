@@ -125,9 +125,10 @@
             this.groupBox2.Controls.Add(this.btnPiso3);
             this.groupBox2.Controls.Add(this.btnPiso2);
             this.groupBox2.Controls.Add(this.btnPiso1);
-            this.groupBox2.Location = new System.Drawing.Point(12, 111);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.groupBox2.Location = new System.Drawing.Point(0, 60);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(192, 297);
+            this.groupBox2.Size = new System.Drawing.Size(192, 440);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -138,7 +139,7 @@
             this.btnPiso4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPiso4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPiso4.ForeColor = System.Drawing.Color.Black;
-            this.btnPiso4.Location = new System.Drawing.Point(43, 247);
+            this.btnPiso4.Location = new System.Drawing.Point(43, 279);
             this.btnPiso4.Name = "btnPiso4";
             this.btnPiso4.Size = new System.Drawing.Size(114, 42);
             this.btnPiso4.TabIndex = 3;
@@ -152,7 +153,7 @@
             this.btnPiso3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPiso3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPiso3.ForeColor = System.Drawing.Color.Black;
-            this.btnPiso3.Location = new System.Drawing.Point(43, 176);
+            this.btnPiso3.Location = new System.Drawing.Point(43, 208);
             this.btnPiso3.Name = "btnPiso3";
             this.btnPiso3.Size = new System.Drawing.Size(114, 42);
             this.btnPiso3.TabIndex = 2;
@@ -166,7 +167,7 @@
             this.btnPiso2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPiso2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPiso2.ForeColor = System.Drawing.Color.Black;
-            this.btnPiso2.Location = new System.Drawing.Point(43, 101);
+            this.btnPiso2.Location = new System.Drawing.Point(43, 133);
             this.btnPiso2.Name = "btnPiso2";
             this.btnPiso2.Size = new System.Drawing.Size(114, 42);
             this.btnPiso2.TabIndex = 1;
@@ -180,7 +181,7 @@
             this.btnPiso1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPiso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPiso1.ForeColor = System.Drawing.Color.Black;
-            this.btnPiso1.Location = new System.Drawing.Point(43, 35);
+            this.btnPiso1.Location = new System.Drawing.Point(43, 67);
             this.btnPiso1.Name = "btnPiso1";
             this.btnPiso1.Size = new System.Drawing.Size(114, 42);
             this.btnPiso1.TabIndex = 0;
@@ -201,9 +202,9 @@
             this.grpDeptos.Controls.Add(this.btnDetpo3);
             this.grpDeptos.Controls.Add(this.btnDetpo1);
             this.grpDeptos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.grpDeptos.Location = new System.Drawing.Point(244, 111);
+            this.grpDeptos.Location = new System.Drawing.Point(299, 97);
             this.grpDeptos.Name = "grpDeptos";
-            this.grpDeptos.Size = new System.Drawing.Size(299, 297);
+            this.grpDeptos.Size = new System.Drawing.Size(328, 329);
             this.grpDeptos.TabIndex = 9;
             this.grpDeptos.TabStop = false;
             this.grpDeptos.Visible = false;
@@ -213,7 +214,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(106, 5);
+            this.label1.Location = new System.Drawing.Point(112, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 16);
             this.label1.TabIndex = 8;
@@ -225,7 +226,7 @@
             this.btnDetpo8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo8.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo8.Location = new System.Drawing.Point(187, 247);
+            this.btnDetpo8.Location = new System.Drawing.Point(193, 257);
             this.btnDetpo8.Name = "btnDetpo8";
             this.btnDetpo8.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo8.TabIndex = 7;
@@ -239,7 +240,7 @@
             this.btnDetpo6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo6.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo6.Location = new System.Drawing.Point(187, 176);
+            this.btnDetpo6.Location = new System.Drawing.Point(193, 186);
             this.btnDetpo6.Name = "btnDetpo6";
             this.btnDetpo6.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo6.TabIndex = 6;
@@ -253,7 +254,7 @@
             this.btnDetpo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo4.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo4.Location = new System.Drawing.Point(187, 101);
+            this.btnDetpo4.Location = new System.Drawing.Point(193, 111);
             this.btnDetpo4.Name = "btnDetpo4";
             this.btnDetpo4.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo4.TabIndex = 5;
@@ -267,7 +268,7 @@
             this.btnDetpo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo2.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo2.Location = new System.Drawing.Point(187, 35);
+            this.btnDetpo2.Location = new System.Drawing.Point(193, 45);
             this.btnDetpo2.Name = "btnDetpo2";
             this.btnDetpo2.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo2.TabIndex = 4;
@@ -281,7 +282,7 @@
             this.btnDetpo7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo7.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo7.Location = new System.Drawing.Point(37, 247);
+            this.btnDetpo7.Location = new System.Drawing.Point(43, 257);
             this.btnDetpo7.Name = "btnDetpo7";
             this.btnDetpo7.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo7.TabIndex = 3;
@@ -295,7 +296,7 @@
             this.btnDetpo5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo5.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo5.Location = new System.Drawing.Point(37, 176);
+            this.btnDetpo5.Location = new System.Drawing.Point(43, 186);
             this.btnDetpo5.Name = "btnDetpo5";
             this.btnDetpo5.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo5.TabIndex = 2;
@@ -309,7 +310,7 @@
             this.btnDetpo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo3.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo3.Location = new System.Drawing.Point(37, 101);
+            this.btnDetpo3.Location = new System.Drawing.Point(43, 111);
             this.btnDetpo3.Name = "btnDetpo3";
             this.btnDetpo3.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo3.TabIndex = 1;
@@ -324,7 +325,7 @@
             this.btnDetpo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetpo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetpo1.ForeColor = System.Drawing.Color.Black;
-            this.btnDetpo1.Location = new System.Drawing.Point(37, 35);
+            this.btnDetpo1.Location = new System.Drawing.Point(43, 45);
             this.btnDetpo1.Name = "btnDetpo1";
             this.btnDetpo1.Size = new System.Drawing.Size(95, 42);
             this.btnDetpo1.TabIndex = 0;

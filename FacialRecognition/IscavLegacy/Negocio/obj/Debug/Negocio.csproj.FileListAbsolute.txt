@@ -32,3 +32,12 @@ Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Neg
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Negocio.dll
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Datos.dll
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Datos.pdb
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.dll
+C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.pdb

@@ -124,6 +124,33 @@ new Size(20, 20));
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            modPersona p = new modPersona();
+            SelectMenuCon c = new SelectMenuCon();
+            if (FacialRecognition.validador.validarDetec == "Persona")
+            {
+                this.Hide();
+            }
+            else
+            {
+
+                c.Show();
+            }
+
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void btnDetectCam_Click(object sender, EventArgs e)
         {
 
@@ -274,7 +301,7 @@ new Size(20, 20));
         private void button4_Click(object sender, EventArgs e)
         {
             modPersona p = new modPersona();
-            menuConserje c = new menuConserje();
+            SelectMenuCon c = new SelectMenuCon();
             if (FacialRecognition.validador.validarDetec == "Persona")
             {
                this.Hide();
