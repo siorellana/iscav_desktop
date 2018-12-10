@@ -195,7 +195,7 @@ namespace FacialRecognition
                 {
                     txtpass.Text = "";
                     txtpass.ForeColor = System.Drawing.Color.DarkBlue;
-
+                    //Error de Williams
                     txtpass.UseSystemPasswordChar = true;
                 }
           
