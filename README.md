@@ -4,6 +4,17 @@
 
 Este proyecto forma parte del examen de grado presentado a INACAP con el fin de crear un proyecto de reconocimiento facial para el aseguramiento del control de acceso de personas, como medida de prevención de delitos y herramienta de apoyo para los conserjes y encargados de seguridad de los edificios.
 
+# Getting started
+- Primero obviamente descarga el repositorio.
+- Realizar la recuperación del archivo .bak en el motor SQL Server (versiones mas abajo).
+- Abrir el archivo .sln con Visual Studio (no Visual Studio Code).
+- Credenciales de acceso admin/admin1
+- El modulo de enrrolamiento permite enrolarte.
+- El modulo Real Time Iscav permite verificar tu identidad.
+
+## Consideraciones
+Al ser un proyecto de C#, se debe ejecutar en un entorno Windows. En caso de que no usea Windows (como yo), crear una máquina virtual con Windows 10 y realizar los pasos antes descritos.
+
 # OpenCV: Open Source Computer Vision Library
 ### Resources
 - Homepage: https://opencv.org
