@@ -1,4 +1,4 @@
-# Proyecto ISCAV <img align="right" src="Reportes/logo.png">
+# Proyecto ISCAV <img align="right" src="https://github.com/siorellana/iscav_desktop/blob/master/Reportes/Logo.png">
 - Website: https://iscav-web.com
 - TO-ADD: Badges
 
