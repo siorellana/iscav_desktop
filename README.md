@@ -1,21 +1,50 @@
-# iscav
-OpenCV: Open Source Computer Vision Library
+# Proyecto ISCAV <img align="right" src="logo.ico">
+- Website: https://iscav-web.com
+- TO-ADD: Badges
 
-Resources
+Este proyecto forma parte del examen de grado presentado a INACAP con el fin de crear un proyecto de reconocimiento facial para el aseguramiento del control de acceso de personas, como medida de prevención de delitos y herramienta de apoyo para los conserjes y encargados de seguridad de los edificios.
 
-Homepage: https://opencv.org
-Docs: https://docs.opencv.org/master/
-Q&A forum: http://answers.opencv.org
-Issue tracking: https://github.com/opencv/opencv/issues
-Contributing
-
+# OpenCV: Open Source Computer Vision Library
+### Resources
+- Homepage: https://opencv.org
+- Docs: https://docs.opencv.org/master/
+- Q&A forum: http://answers.opencv.org
+- Issue tracking: https://github.com/opencv/opencv/issues
+### Contributing
 Please read the contribution guidelines before starting work on a pull request.
 
-Summary of the guidelines:
+### Summary of the guidelines:
+ - One pull request per issue;
+ - Choose the right base branch;
+ - Include tests and documentation;
+ - Clean up "oops" commits before submitting;
+ - Follow the coding style guide.
 
-One pull request per issue;
-Choose the right base branch;
-Include tests and documentation;
-Clean up "oops" commits before submitting;
-Follow the coding style guide.# iscav_2.0
-# iscav_desktop
+ 
+ 
+# SQL Server
+La base de datos que contiene la base de datos del sistema Iscav Desktop se llama iscavDB.
+Se esta utilizando:
+- Microsoft SQL Server 2017 (RTM) - 14.0.1000.169 (X64).
+- Management Studio 2017 versión 17.8.1 que se puede obtener desde el siguiente link:
+ 
+https://docs.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+ 
+Se han dejado las bases de datos en los directorios:
+ - C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\
+ - C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\Log\
+ 
+El string de conexión debe ser con localhost como se muestra a continuación:
+ 
+```
+private static string cadenaConexion = @"Data Source=localhost;Initial Catalog=dbprod1;Trusted_Connection =True";
+```
+
+# License
+
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
+
+
+* Producción: https://iscav-web.com
+* Desarrollo: https://iscav-dev.firebaseapp.com
+* Legacy 2.0: https://iscav-web.firebaseapp.com
