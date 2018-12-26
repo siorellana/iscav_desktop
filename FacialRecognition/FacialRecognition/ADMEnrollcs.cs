@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+<<<<<<< HEAD
 using FacialRecognition;
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
 using Iscav1;
 
 namespace FacialRecognition
@@ -278,10 +281,15 @@ namespace FacialRecognition
 
         private void button4_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             SelectMenu adm = new SelectMenu();
 
             adm.Show();
             
+=======
+            SelectMenu login = new SelectMenu();
+            login.Show();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.Hide();
         }
     }

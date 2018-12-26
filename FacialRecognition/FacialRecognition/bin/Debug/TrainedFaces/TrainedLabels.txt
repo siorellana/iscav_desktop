@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 3%856-Sebastian Orellana-202-Residente%887-Pamela Gaete-303-Visita%521-Sebastian Orellana-205-Residente%
+=======
+9%787-Sebastian ORellana tres cien-403-Residente%452-Salamanca cien tres-208-Residente%207-SEBASTIAN ORELLANA-406-Visita%244-Sebastian Orellana-1025-Visita%461-qsq-1025-wsw%585-Sebastian Orellana-1025-Residente%231-Juan Perez-306-Visita%22-Aiser Vesa-105-Visita%596-Juan Soto-108-Visita%
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc

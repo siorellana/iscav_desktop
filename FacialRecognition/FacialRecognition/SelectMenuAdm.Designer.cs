@@ -35,6 +35,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.lblReport = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -46,6 +47,19 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.lblReconocimiento = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+=======
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -59,12 +73,21 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblDepto = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblResi = new System.Windows.Forms.Label();
+=======
+            this.btnEdificio = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -166,6 +189,7 @@
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // lblReport
             // 
             this.lblReport.AutoSize = true;
@@ -178,12 +202,15 @@
             this.lblReport.Text = "Reportes";
             this.lblReport.Visible = false;
             // 
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // pictureBox9
             // 
             this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox9.Location = new System.Drawing.Point(16, 28);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
@@ -193,6 +220,29 @@
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             this.pictureBox9.MouseEnter += new System.EventHandler(this.pictureBox9_MouseEnter);
             this.pictureBox9.MouseLeave += new System.EventHandler(this.pictureBox9_MouseLeave);
+=======
+            this.pictureBox9.Location = new System.Drawing.Point(21, 8);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(140, 140);
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(18, 151);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(150, 43);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Reportes de acceso";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox5
             // 
@@ -205,6 +255,7 @@
             this.groupBox5.TabIndex = 6;
             this.groupBox5.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // lblRegistroVisi
             // 
             this.lblRegistroVisi.AutoSize = true;
@@ -217,6 +268,8 @@
             this.lblRegistroVisi.Text = "Registro Persona";
             this.lblRegistroVisi.Visible = false;
             // 
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // pictureBox5
             // 
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -229,9 +282,27 @@
             this.pictureBox5.Size = new System.Drawing.Size(140, 140);
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox5_MouseEnter);
             this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
+=======
+            // 
+            // button4
+            // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(18, 150);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(150, 43);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Registrar Visita";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox6
             // 
@@ -244,6 +315,7 @@
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // lblVehiculo
             // 
             this.lblVehiculo.AutoSize = true;
@@ -256,6 +328,8 @@
             this.lblVehiculo.Text = "Registro Vehiculos";
             this.lblVehiculo.Visible = false;
             // 
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -268,9 +342,27 @@
             this.pictureBox1.Size = new System.Drawing.Size(140, 140);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_2);
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+=======
+            // 
+            // button5
+            // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(18, 150);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(150, 43);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Registrar Vehiculo";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox7
             // 
@@ -283,6 +375,7 @@
             this.groupBox7.TabIndex = 8;
             this.groupBox7.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // lblReconocimiento
             // 
             this.lblReconocimiento.AutoSize = true;
@@ -295,6 +388,8 @@
             this.lblReconocimiento.Text = "Reconocimiento en Vivo";
             this.lblReconocimiento.Visible = false;
             // 
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // pictureBox7
             // 
             this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -308,8 +403,26 @@
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox7.MouseEnter += new System.EventHandler(this.pictureBox7_MouseEnter);
             this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox7_MouseLeave);
+=======
+            // 
+            // button6
+            // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(18, 150);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(150, 43);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "Reconocimiento en vivo";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox9
             // 
@@ -433,12 +546,33 @@
             this.groupBox8.TabIndex = 9;
             this.groupBox8.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // pictureBox6
             // 
+=======
+            // btnEdificio
+            // 
+            this.btnEdificio.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnEdificio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.btnEdificio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdificio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdificio.ForeColor = System.Drawing.Color.Black;
+            this.btnEdificio.Location = new System.Drawing.Point(18, 150);
+            this.btnEdificio.Name = "btnEdificio";
+            this.btnEdificio.Size = new System.Drawing.Size(150, 43);
+            this.btnEdificio.TabIndex = 1;
+            this.btnEdificio.Text = "Departamentos";
+            this.btnEdificio.UseVisualStyleBackColor = false;
+            this.btnEdificio.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox6
+            // 
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox6.Location = new System.Drawing.Point(21, 28);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
@@ -448,18 +582,32 @@
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox6_MouseEnter);
             this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
+=======
+            this.pictureBox6.Location = new System.Drawing.Point(21, 8);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(140, 140);
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox2.Controls.Add(this.lblDepto);
             this.groupBox2.Controls.Add(this.pictureBox6);
+=======
+            this.groupBox2.Controls.Add(this.pictureBox6);
+            this.groupBox2.Controls.Add(this.btnEdificio);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox2.Location = new System.Drawing.Point(194, 66);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(185, 200);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // lblDepto
             // 
             this.lblDepto.AutoSize = true;
@@ -471,6 +619,22 @@
             this.lblDepto.TabIndex = 4;
             this.lblDepto.Text = "Departamentos";
             this.lblDepto.Visible = false;
+=======
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(18, 150);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(150, 43);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Residentes";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // pictureBox8
             // 
@@ -478,6 +642,7 @@
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.pictureBox8.Location = new System.Drawing.Point(18, 28);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
@@ -487,17 +652,31 @@
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             this.pictureBox8.MouseEnter += new System.EventHandler(this.pictureBox8_MouseEnter);
             this.pictureBox8.MouseLeave += new System.EventHandler(this.pictureBox8_MouseLeave);
+=======
+            this.pictureBox8.Location = new System.Drawing.Point(21, 8);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(140, 140);
+            this.pictureBox8.TabIndex = 3;
+            this.pictureBox8.TabStop = false;
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox3.Controls.Add(this.lblResi);
             this.groupBox3.Controls.Add(this.pictureBox8);
+=======
+            this.groupBox3.Controls.Add(this.pictureBox8);
+            this.groupBox3.Controls.Add(this.button2);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox3.Location = new System.Drawing.Point(402, 66);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(185, 200);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // lblResi
             // 
@@ -510,6 +689,8 @@
             this.lblResi.TabIndex = 5;
             this.lblResi.Text = "Residentes";
             this.lblResi.Visible = false;
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             // 
             // SelectMenu
             // 
@@ -544,6 +725,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox4.ResumeLayout(false);
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox5.ResumeLayout(false);
@@ -551,6 +733,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.groupBox6.ResumeLayout(false);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -569,10 +757,15 @@
             this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox2.ResumeLayout(false);
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
             this.ResumeLayout(false);
 
         }
@@ -604,6 +797,7 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox8;
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox pictureBox8;
@@ -614,5 +808,13 @@
         private System.Windows.Forms.Label lblReconocimiento;
         private System.Windows.Forms.Label lblVehiculo;
         private System.Windows.Forms.Label lblResi;
+=======
+        private System.Windows.Forms.Button btnEdificio;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.GroupBox groupBox3;
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.Designer.cs
     }
 }

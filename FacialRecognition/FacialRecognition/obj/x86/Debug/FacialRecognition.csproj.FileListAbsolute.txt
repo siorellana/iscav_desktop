@@ -212,6 +212,7 @@ C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\FacialRecognit
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.exe
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.pdb
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.ADMEnrollcs.resources
+<<<<<<< HEAD
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\bin\Debug\FacialRecognition.exe.config
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\bin\Debug\FacialRecognition.exe
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\bin\Debug\FacialRecognition.pdb
@@ -243,3 +244,6 @@ Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognit
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.csproj.CopyComplete
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.exe
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.pdb
+=======
+Z:\Documentos\Projects\ProyectoIscav\iscav_dev\FacialRecognition\FacialRecognition\obj\x86\Debug\FacialRecognition.ADMEnrollcs.resources
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc

@@ -150,7 +150,11 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(40, 544);
+<<<<<<< HEAD
             this.button4.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(142, 47);
             this.button4.TabIndex = 18;
@@ -164,7 +168,11 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnBuscar.Location = new System.Drawing.Point(13, 125);
+<<<<<<< HEAD
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(176, 28);
             this.btnBuscar.TabIndex = 11;
@@ -178,7 +186,11 @@
             this.btnBusNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBusNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnBusNombre.Location = new System.Drawing.Point(13, 171);
+<<<<<<< HEAD
             this.btnBusNombre.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnBusNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnBusNombre.Name = "btnBusNombre";
             this.btnBusNombre.Size = new System.Drawing.Size(176, 28);
             this.btnBusNombre.TabIndex = 14;
@@ -192,7 +204,11 @@
             this.btnBuscarDepto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarDepto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnBuscarDepto.Location = new System.Drawing.Point(13, 219);
+<<<<<<< HEAD
             this.btnBuscarDepto.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnBuscarDepto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnBuscarDepto.Name = "btnBuscarDepto";
             this.btnBuscarDepto.Size = new System.Drawing.Size(176, 28);
             this.btnBuscarDepto.TabIndex = 20;
@@ -207,7 +223,11 @@
             this.btnMuestraTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMuestraTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnMuestraTodo.Location = new System.Drawing.Point(40, 340);
+<<<<<<< HEAD
             this.btnMuestraTodo.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnMuestraTodo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnMuestraTodo.Name = "btnMuestraTodo";
             this.btnMuestraTodo.Size = new System.Drawing.Size(236, 57);
             this.btnMuestraTodo.TabIndex = 8;
@@ -222,7 +242,11 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnSalir.Location = new System.Drawing.Point(315, 544);
+<<<<<<< HEAD
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(112, 38);
             this.btnSalir.TabIndex = 7;
@@ -236,7 +260,11 @@
             this.btnResidentes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnResidentes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnResidentes.Location = new System.Drawing.Point(40, 404);
+<<<<<<< HEAD
             this.btnResidentes.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnResidentes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnResidentes.Name = "btnResidentes";
             this.btnResidentes.Size = new System.Drawing.Size(236, 53);
             this.btnResidentes.TabIndex = 23;
@@ -250,7 +278,11 @@
             this.btnVisitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVisitas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnVisitas.Location = new System.Drawing.Point(40, 464);
+<<<<<<< HEAD
             this.btnVisitas.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnVisitas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnVisitas.Name = "btnVisitas";
             this.btnVisitas.Size = new System.Drawing.Size(236, 52);
             this.btnVisitas.TabIndex = 22;
@@ -275,11 +307,19 @@
             this.dataGridPropietario.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.dataGridPropietario.DataSource = this.tbpersonaBindingSource3;
             this.dataGridPropietario.GridColor = System.Drawing.SystemColors.InactiveCaptionText;
+<<<<<<< HEAD
             this.dataGridPropietario.Location = new System.Drawing.Point(541, 171);
             this.dataGridPropietario.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridPropietario.Name = "dataGridPropietario";
             this.dataGridPropietario.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridPropietario.Size = new System.Drawing.Size(689, 431);
+=======
+            this.dataGridPropietario.Location = new System.Drawing.Point(564, 244);
+            this.dataGridPropietario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridPropietario.Name = "dataGridPropietario";
+            this.dataGridPropietario.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridPropietario.Size = new System.Drawing.Size(689, 358);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.dataGridPropietario.TabIndex = 25;
             this.dataGridPropietario.UseWaitCursor = true;
             // 
@@ -398,9 +438,15 @@
             this.groupBox2.Controls.Add(this.pictureBox3);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+=======
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.groupBox2.Size = new System.Drawing.Size(1260, 71);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
@@ -409,7 +455,11 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1192, 15);
+<<<<<<< HEAD
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(26, 22);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -421,10 +471,14 @@
             // 
             this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnAtras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
             this.btnAtras.Location = new System.Drawing.Point(980, 15);
+<<<<<<< HEAD
             this.btnAtras.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(204, 39);
             this.btnAtras.TabIndex = 4;
@@ -436,7 +490,11 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(1227, 15);
+<<<<<<< HEAD
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(26, 22);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -447,10 +505,17 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::FacialRecognition.Properties.Resources.Logo_ISCAV;
+<<<<<<< HEAD
             this.pictureBox3.Location = new System.Drawing.Point(31, 15);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(141, 48);
+=======
+            this.pictureBox3.Location = new System.Drawing.Point(9, 15);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(194, 48);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -460,7 +525,11 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::FacialRecognition.Properties.Resources._007_target;
             this.pictureBox2.Location = new System.Drawing.Point(483, 125);
+<<<<<<< HEAD
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(46, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -535,7 +604,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.White;
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(213)))), ((int)(((byte)(237)))));
+            this.BackgroundImage = global::FacialRecognition.Properties.Resources.A_UNO_424547;
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.CancelButton = this.btnSalir;
             this.ClientSize = new System.Drawing.Size(1260, 615);
             this.Controls.Add(this.label1);
@@ -565,7 +639,11 @@
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Alpha;
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.MaximumSize = new System.Drawing.Size(1260, 615);
             this.MinimumSize = new System.Drawing.Size(1260, 615);
             this.Name = "modPersona";

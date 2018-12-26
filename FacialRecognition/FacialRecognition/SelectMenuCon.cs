@@ -18,6 +18,7 @@ namespace FacialRecognition
 
         private void btnEdificio_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
         }
 
@@ -83,6 +84,26 @@ namespace FacialRecognition
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
+=======
+            FacialRecognition.validador.validarDetec = "Conserje";
+
+            modDepto modDepto = new modDepto();
+            //propiedad.MdiParent = this;
+
+            // propiedad.WindowState = FormWindowState.Maximized;
+            modDepto.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FacialRecognition.validador.validarDetec = "Conserje";
+            modDeteccion d = new modDeteccion();
+            d.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
         {
             FacialRecognition.validador.validarDetec = "Conserje";
             modEnroll rola = new modEnroll();
@@ -90,11 +111,16 @@ namespace FacialRecognition
             rola.Show();
         }
 
+<<<<<<< HEAD
         private void pictureBox1_Click(object sender, EventArgs e)
+=======
+        private void button5_Click(object sender, EventArgs e)
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
         {
             FacialRecognition.validador.validarDetec = "Conserje";
 
             modVehiculo mv = new modVehiculo();
+<<<<<<< HEAD
             this.Hide();
             mv.Show();
 
@@ -139,6 +165,31 @@ namespace FacialRecognition
         private void pictureBox1_MouseLeave(object sender, EventArgs e)
         {
             lblVehiculo.Hide();
+=======
+            mv.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            menuLogin login = new menuLogin();
+            this.Hide();
+            login.Show();
+
+           
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
         }
     }
 }

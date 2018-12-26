@@ -159,6 +159,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿ Ha Olvidado Su Contraseña ?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+<<<<<<< HEAD
             // 
             // lblPass
             // 
@@ -173,6 +174,8 @@
             this.lblPass.Text = "CONTRASEÑA";
             this.lblPass.MouseEnter += new System.EventHandler(this.lblPass_MouseEnter);
             this.lblPass.MouseLeave += new System.EventHandler(this.lblPass_MouseLeave);
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             // 
             // menuLogin
             // 

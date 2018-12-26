@@ -36,6 +36,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD
+=======
+            this.btnPiso3 = new System.Windows.Forms.Button();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.btnPiso2 = new System.Windows.Forms.Button();
             this.btnPiso1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
@@ -118,6 +122,10 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+<<<<<<< HEAD
+=======
+            this.groupBox1.Controls.Add(this.btnPiso3);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.groupBox1.Controls.Add(this.btnPiso2);
             this.groupBox1.Controls.Add(this.btnPiso1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -127,6 +135,23 @@
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+            // btnPiso3
+            // 
+            this.btnPiso3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
+            this.btnPiso3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPiso3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPiso3.ForeColor = System.Drawing.Color.Black;
+            this.btnPiso3.Location = new System.Drawing.Point(12, 263);
+            this.btnPiso3.Name = "btnPiso3";
+            this.btnPiso3.Size = new System.Drawing.Size(162, 84);
+            this.btnPiso3.TabIndex = 2;
+            this.btnPiso3.Text = "Reporte Ingreso Conserjes";
+            this.btnPiso3.UseVisualStyleBackColor = false;
+            this.btnPiso3.Click += new System.EventHandler(this.btnPiso3_Click);
+            // 
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             // btnPiso2
             // 
             this.btnPiso2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
@@ -187,6 +212,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.GroupBox groupBox1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnPiso3;
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
         private System.Windows.Forms.Button btnPiso2;
         private System.Windows.Forms.Button btnPiso1;
     }

@@ -53,7 +53,11 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
+<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(799, 50);
+=======
+            this.panel1.Size = new System.Drawing.Size(629, 50);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.panel1.TabIndex = 0;
             // 
             // button4
@@ -61,11 +65,19 @@
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+<<<<<<< HEAD
             this.button4.Location = new System.Drawing.Point(604, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(184, 29);
             this.button4.TabIndex = 11;
             this.button4.Text = "CERRAR SESION";
+=======
+            this.button4.Location = new System.Drawing.Point(431, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(184, 29);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Volver a Menu";
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -84,7 +96,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(274, 64);
+=======
+            this.label1.Location = new System.Drawing.Point(202, 75);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(211, 29);
             this.label1.TabIndex = 9;
@@ -100,7 +116,11 @@
             this.groupBox1.Controls.Add(this.cbotipo);
             this.groupBox1.Controls.Add(this.txtnombre);
             this.groupBox1.Controls.Add(this.txtcontraseña);
+<<<<<<< HEAD
             this.groupBox1.Location = new System.Drawing.Point(235, 106);
+=======
+            this.groupBox1.Location = new System.Drawing.Point(163, 117);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(279, 332);
             this.groupBox1.TabIndex = 8;
@@ -203,7 +223,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(799, 467);
+=======
+            this.ClientSize = new System.Drawing.Size(629, 496);
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);

@@ -119,7 +119,10 @@ namespace FacialRecognition
             txtpass.Text = login_pass;
 
             Autentif(txtuser.Text, txtpass.Text);
+<<<<<<< HEAD
             registrador.nombreRegistrador = txtuser.Text;
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
 
 
 
@@ -192,6 +195,7 @@ namespace FacialRecognition
             try
             {
 
+<<<<<<< HEAD
                 lblPass.Hide();
 
 
@@ -199,6 +203,16 @@ namespace FacialRecognition
          
                
 
+=======
+                if (txtpass.Text == "CONTRASEÑA")
+                {
+                    txtpass.Text = "";
+                    txtpass.ForeColor = System.Drawing.Color.DarkBlue;
+                    //Error de Williams
+                    txtpass.UseSystemPasswordChar = true;
+                }
+          
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
 
 
             }
@@ -242,6 +256,7 @@ namespace FacialRecognition
         {
             Process.Start("https://iscav-web.com/");
         }
+<<<<<<< HEAD
 
         private void lblPass_MouseEnter(object sender, EventArgs e)
         {
@@ -252,6 +267,8 @@ namespace FacialRecognition
         {
             lblPass.Show();
         }
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
     }
     public static class validador
     {

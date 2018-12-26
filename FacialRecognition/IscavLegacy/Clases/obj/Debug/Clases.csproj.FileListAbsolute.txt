@@ -29,9 +29,12 @@ C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Cl
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.dll
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.pdb
+<<<<<<< HEAD
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\bin\Debug\Clases.pdb
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Clases\obj\Debug\Clases.pdb
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc

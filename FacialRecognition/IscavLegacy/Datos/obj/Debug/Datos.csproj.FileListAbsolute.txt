@@ -41,6 +41,7 @@ C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Da
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.dll
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.pdb
+<<<<<<< HEAD
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\bin\Debug\Datos.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\bin\Debug\Datos.pdb
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\bin\Debug\Clases.dll
@@ -50,3 +51,5 @@ Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Da
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.csproj.CopyComplete
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Datos\obj\Debug\Datos.pdb
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc

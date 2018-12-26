@@ -85,7 +85,18 @@ namespace Iscav1
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
            
+=======
+            FacialRecognition.validador.validarDetec = "Persona";
+
+            modDepto modDepto = new modDepto();
+            //propiedad.MdiParent = this;
+
+            // propiedad.WindowState = FormWindowState.Maximized;
+            modDepto.Show();
+            this.Hide();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
 
         }
 
@@ -128,13 +139,34 @@ namespace Iscav1
 
         private void button3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
          
+=======
+            FacialRecognition.validador.validarDetec = "Persona";
+
+            modReporte repo = new modReporte();
+
+            //repo.MdiParent = this;
+
+            repo.WindowState = FormWindowState.Maximized;
+            repo.Show();
+            this.Hide();
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
 
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
             
+=======
+            FacialRecognition.validador.validarDetec = "Persona";
+
+            modVehiculo mv = new modVehiculo();
+            mv.Show();
+            this.Hide();
+
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
@@ -171,6 +203,7 @@ namespace Iscav1
             ingUsers.Show();
             this.Hide();
         }
+<<<<<<< HEAD:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
@@ -288,5 +321,7 @@ namespace Iscav1
         {
             lblReconocimiento.Hide();
         }
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc:FacialRecognition/FacialRecognition/SelectMenuAdm.cs
     }
 }

@@ -41,6 +41,7 @@ C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Ne
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.dll
 C:\Users\Will\Desktop\iscavSiorellana\iscav_dev\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.pdb
+<<<<<<< HEAD
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Negocio.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Negocio.pdb
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\bin\Debug\Datos.dll
@@ -50,3 +51,5 @@ Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Ne
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.dll
 Z:\Documentos\Projects\ProyectoIscav\iscav_prod\FacialRecognition\IscavLegacy\Negocio\obj\Debug\Negocio.pdb
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc

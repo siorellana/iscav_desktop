@@ -153,7 +153,10 @@
             // lblFaceID
             // 
             this.lblFaceID.AutoSize = true;
+<<<<<<< HEAD
             this.lblFaceID.ForeColor = System.Drawing.Color.White;
+=======
+>>>>>>> e74c1d05333b30f10652cf8b35a6f4b05167b7dc
             this.lblFaceID.Location = new System.Drawing.Point(675, 248);
             this.lblFaceID.Name = "lblFaceID";
             this.lblFaceID.Size = new System.Drawing.Size(42, 13);
