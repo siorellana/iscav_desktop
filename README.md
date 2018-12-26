@@ -2,6 +2,7 @@
 - Website: https://iscav-web.com
 - TO-ADD Badges
 
+
 Este proyecto forma parte del examen de grado presentado a INACAP con el fin de crear un proyecto de reconocimiento facial para el aseguramiento del control de acceso de personas, como medida de prevención de delitos y herramienta de apoyo para los conserjes y encargados de seguridad de los edificios.
 
 # Getting started
