@@ -32,7 +32,6 @@ Please read the contribution guidelines before starting work on a pull request.
  - Follow the coding style guide.
 
  
- 
 # SQL Server
 La base de datos que contiene la base de datos del sistema Iscav Desktop se llama iscavDB.
 Se esta utilizando:
