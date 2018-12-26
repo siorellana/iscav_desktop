@@ -1,4 +1,4 @@
-# Proyecto ISCAV <img align="right" src="logo.png">
+# Proyecto ISCAV <img align="right" src="Reportes/logo.png">
 - Website: https://iscav-web.com
 - TO-ADD: Badges
 
