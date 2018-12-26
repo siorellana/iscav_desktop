@@ -428,7 +428,7 @@ namespace Iscav1
             //conn.Close();
             try
             {
-                if (txtDepto.Text == " ")
+                if (txtDepto.Text == "")
                 {
                     lblMensaje.Text = "Ingrese el ID de departamento para eliminar";
 
@@ -438,6 +438,10 @@ namespace Iscav1
                     if (!IsNumeric(txtDepto.Text))
                     {
                         lblMensaje.Text = "Ingrese un Valor Númerico";
+
+
+
+                   
 
                     }
                     else
@@ -456,11 +460,14 @@ namespace Iscav1
 
             lblMensaje1.Text = "Se encontro a Persona";
 
-
+                  
+                        
                     }
                 }
+               
             }
 
+            
 
             catch (Exception EX)
             {
@@ -487,6 +494,87 @@ namespace Iscav1
         {
             Application.Exit();
 
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            label1.Text = "Ingresa FACE ID luego presioname para eliminar";
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            label1.Text = "";
+        }
+
+        private void txtFaceId_Enter(object sender, EventArgs e)
+        {
+            if (txtFaceId.Text == "FACE ID")
+            {
+                txtFaceId.Text = "";
+                txtFaceId.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDepto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFaceId_Leave(object sender, EventArgs e)
+        {
+            if (txtFaceId.Text == "")
+            {
+                txtFaceId.Text = "FACE ID";
+                txtFaceId.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+        }
+
+        private void txtNombre_Enter(object sender, EventArgs e)
+        {
+            if (txtNombre.Text == "NOMBRE")
+            {
+                txtNombre.Text = "";
+                txtNombre.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+
+        }
+
+        private void txtNombre_Leave(object sender, EventArgs e)
+        {
+            if (txtNombre.Text == "")
+            {
+                txtNombre.Text = "NOMBRE";
+                txtNombre.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+        }
+
+        private void txtDepto_Enter(object sender, EventArgs e)
+        {
+            if (txtDepto.Text == "DEPARTAMENTO")
+            {
+                txtDepto.Text = "";
+                txtDepto.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+        }
+
+        private void txtDepto_Leave(object sender, EventArgs e)
+        {
+            if (txtDepto.Text == "")
+            {
+                txtDepto.Text = "DEPARTAMENTO";
+                txtDepto.ForeColor = System.Drawing.Color.DarkBlue;
+            }
+        }
+
+        private void btnBuscarDepto_KeyUp(object sender, KeyEventArgs e)
+        {
+            lblMensaje.Text = "";
+            lblMensaje1.Text = "";
         }
     }
     

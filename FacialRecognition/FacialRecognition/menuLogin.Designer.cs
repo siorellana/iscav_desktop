@@ -40,6 +40,7 @@
             this.txtuser = new ZBobb.AlphaBlendTextBox();
             this.txtpass = new ZBobb.AlphaBlendTextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lblPass = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -53,7 +54,7 @@
             // 
             // btningresar
             // 
-            this.btningresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(151)))), ((int)(((byte)(0)))));
+            this.btningresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
             this.btningresar.FlatAppearance.BorderSize = 0;
             this.btningresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btningresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -140,9 +141,9 @@
             this.txtpass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
             this.txtpass.Location = new System.Drawing.Point(195, 171);
             this.txtpass.Name = "txtpass";
+            this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(248, 19);
             this.txtpass.TabIndex = 2;
-            this.txtpass.Text = "CONTRASEÑA";
             this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
             this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
             // 
@@ -150,13 +151,28 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Orange;
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(200)))), ((int)(((byte)(20)))));
             this.linkLabel1.Location = new System.Drawing.Point(201, 274);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(157, 13);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿ Ha Olvidado Su Contraseña ?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // lblPass
+            // 
+            this.lblPass.AutoSize = true;
+            this.lblPass.BackColor = System.Drawing.Color.Transparent;
+            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(122)))));
+            this.lblPass.Location = new System.Drawing.Point(191, 170);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(119, 20);
+            this.lblPass.TabIndex = 7;
+            this.lblPass.Text = "CONTRASEÑA";
+            this.lblPass.MouseEnter += new System.EventHandler(this.lblPass_MouseEnter);
+            this.lblPass.MouseLeave += new System.EventHandler(this.lblPass_MouseLeave);
             // 
             // menuLogin
             // 
@@ -166,6 +182,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::FacialRecognition.Properties.Resources.slider_11;
             this.ClientSize = new System.Drawing.Size(605, 402);
+            this.Controls.Add(this.lblPass);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtuser);
@@ -200,5 +217,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lblPass;
     }
 }

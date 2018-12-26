@@ -64,11 +64,11 @@ namespace FacialRecognition
         {
             if (label2.Text.Equals('1') )
             {
-                this.BackColor = System.Drawing.Color.Lime;
+                groupBox1.BackColor = System.Drawing.Color.Lime;
             }
             else
             {
-                this.BackColor = System.Drawing.Color.Red;
+                groupBox1.BackColor = System.Drawing.Color.Red;
 
             }
 
@@ -110,7 +110,7 @@ namespace FacialRecognition
         private void btnAtras_Click(object sender, EventArgs e)
         {
             modPersona p = new modPersona();
-            menuConserje c = new menuConserje();
+            SelectMenuCon c = new SelectMenuCon();
             if (FacialRecognition.validador.validarDetec == "Persona")
             {
                 this.Hide();
@@ -127,6 +127,11 @@ namespace FacialRecognition
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
 
         }
 
@@ -208,7 +213,52 @@ namespace FacialRecognition
                                 lblNombre.Visible = true;
                                 lblFaceID.Visible = true;
                                 lblHora.Text = horadetectada.ToString();
-                                this.BackColor = System.Drawing.Color.Lime;
+                                groupBox1.BackColor = System.Drawing.Color.Lime;
+
+                                try
+                                {
+                                    // Objetos de conexión y comando
+                                    System.Data.SqlClient.SqlConnection conn = new System.Data.SqlClient.SqlConnection((@"Data Source=localhost;Initial Catalog=dbprod;Trusted_Connection =True"));
+                                    System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand();
+
+                                    // Estableciento propiedades
+                                    cmd.Connection = conn;
+                                    cmd.CommandText = "INSERT INTO tbingreso VALUES (@faceid, @nombre, @depto, @horadetectada)";
+
+                                    // Creando los parámetros necesarios
+                                    cmd.Parameters.Add("@faceid", System.Data.SqlDbType.Int);
+                                    cmd.Parameters.Add("@nombre", System.Data.SqlDbType.NVarChar);
+                                    cmd.Parameters.Add("@depto", System.Data.SqlDbType.Int);
+                                    cmd.Parameters.Add("@horadetectada", System.Data.SqlDbType.DateTime);
+                                    MemoryStream ms = new MemoryStream();
+                                    // imageBox2.Image.Save(ms,"@fotopersona" , System.Drawing.Imaging.ImageFormat.Bmp);
+                                  //  cmd.Parameters["@fotopersona"].Value = ms.GetBuffer();
+                                    // Asignando los valores a los atributos
+                                    cmd.Parameters["@faceid"].Value = int.Parse(lblFaceID.Text);
+                                    cmd.Parameters["@nombre"].Value = lblNombre.Text;
+                                    cmd.Parameters["@depto"].Value = int.Parse(lblDepto.Text);
+                                    cmd.Parameters["@horadetectada"].Value = lblHora.Text;
+                                    //cmd.Parameters["@fotopersona"].Value = imageBox2;
+                                    //cmd.Parameters["@fotopersona"].Value = arr;
+                                    //cmd.Parameters["@activo"].Value = "true";
+
+                                    // Asignando el valor de la imagen
+                                    //// Stream usado como buffer
+                                    //System.IO.MemoryStream ms = new System.IO.MemoryStream();
+                                    //// Se guarda la imagen en el buffer
+                                    //imageBox2.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+                                    //// Se extraen los bytes del buffer para asignarlos como valor para el 
+                                    //// parámetro.
+                                    //cmd.Parameters["@image"].Value = ms.GetBuffer();
+
+                                    conn.Open();
+                                    cmd.ExecuteNonQuery();
+                                    conn.Close();
+                                }
+                                catch (System.Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
 
 
 
@@ -218,7 +268,7 @@ namespace FacialRecognition
                         else
                         {
                             label1.Text = "Persona no reconocida";
-                            this.BackColor = System.Drawing.Color.Red;
+                            groupBox1.BackColor = System.Drawing.Color.Red;
 
                         }
                     }
@@ -263,7 +313,7 @@ namespace FacialRecognition
         {
 
             Iscav1.modPersona p = new Iscav1.modPersona();
-            menuConserje c = new menuConserje();
+            menuConserje2 c = new menuConserje2();
             if (FacialRecognition.validador.validarDetec == "Persona") {
 
                 this.Hide();

@@ -124,6 +124,33 @@ new Size(20, 20));
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            modPersona p = new modPersona();
+            SelectMenuCon c = new SelectMenuCon();
+            if (FacialRecognition.validador.validarDetec == "Persona")
+            {
+                this.Hide();
+            }
+            else
+            {
+
+                c.Show();
+            }
+
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void btnDetectCam_Click(object sender, EventArgs e)
         {
 
@@ -191,6 +218,9 @@ new Size(20, 20));
             faceid = lblFaceID.Text;
             depto = boxDepto.Text;
             tipoPersona = cbTipoPerson.Text;
+            string regis = registrador.nombreRegistrador;
+
+            DateTime fechaingreso = DateTime.Now;
             nombre = boxNombre.Text;
             byte[] arr = null;
 
@@ -219,7 +249,7 @@ new Size(20, 20));
 
                 // Estableciento propiedades
                 cmd.Connection = conn;
-                cmd.CommandText = "INSERT INTO tbpersona VALUES (@faceid, @nombre, @depto, @tipopersona, @fotopersona, @activo)";
+                cmd.CommandText = "INSERT INTO tbpersona VALUES (@faceid, @nombre, @depto, @tipopersona, @fotopersona, @activo, @regis, @fechaingreso)";
 
                 // Creando los parámetros necesarios
                 cmd.Parameters.Add("@faceid", System.Data.SqlDbType.Int);
@@ -228,6 +258,8 @@ new Size(20, 20));
                 cmd.Parameters.Add("@activo", System.Data.SqlDbType.NVarChar);
                 cmd.Parameters.Add("@tipopersona", System.Data.SqlDbType.NVarChar);
                 cmd.Parameters.Add("@fotopersona", System.Data.SqlDbType.Image);
+                cmd.Parameters.Add("@regis", System.Data.SqlDbType.NVarChar);
+                cmd.Parameters.Add("@fechaingreso", System.Data.SqlDbType.DateTime);
                 MemoryStream ms = new MemoryStream();
                // imageBox2.Image.Save(ms,"@fotopersona" , System.Drawing.Imaging.ImageFormat.Bmp);
                 cmd.Parameters["@fotopersona"].Value = ms.GetBuffer();
@@ -239,6 +271,8 @@ new Size(20, 20));
                 //cmd.Parameters["@fotopersona"].Value = imageBox2;
                 cmd.Parameters["@fotopersona"].Value = arr;
                 cmd.Parameters["@activo"].Value = "true";
+                cmd.Parameters["@regis"].Value = registrador.nombreRegistrador;
+                cmd.Parameters["@fechaingreso"].Value = fechaingreso;
 
                 // Asignando el valor de la imagen
                 //// Stream usado como buffer
@@ -274,7 +308,7 @@ new Size(20, 20));
         private void button4_Click(object sender, EventArgs e)
         {
             modPersona p = new modPersona();
-            menuConserje c = new menuConserje();
+            SelectMenuCon c = new SelectMenuCon();
             if (FacialRecognition.validador.validarDetec == "Persona")
             {
                this.Hide();

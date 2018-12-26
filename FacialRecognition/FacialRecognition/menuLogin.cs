@@ -2,6 +2,10 @@
 using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Data;
+using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Diagnostics;
 
 
 namespace FacialRecognition
@@ -35,35 +39,118 @@ namespace FacialRecognition
             FacialRecognition.tiempo.segundos = 60;
         }
 
-        private void btningresar_Click(object sender, EventArgs e)
-        {
-            if (txtuser.Text.Equals("admin") && txtpass.Text.Equals("admin1"))
-            {
-                MessageBox.Show(" Bienvenido Administrador");
-                SelectMenu sm = new SelectMenu();
-                menuLogin menul = new menuLogin();
-                sm.Show();
-                this.Hide();
 
-            }
-            else
+        public void Autentif(string pusuario, string pcontrasena)
+        {
+
+
+
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=dbprod;Trusted_Connection =True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("Select NOMBRE,CONTRASEÑA, TIPOUSER from tbusers where NOMBRE =@user AND CONTRASEÑA =@pass", conn);
+
+            cmd.Parameters.AddWithValue("user", pusuario);
+            cmd.Parameters.AddWithValue("pass", pcontrasena);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            if (dt.Rows.Count == 1)
             {
-                if (txtuser.Text.Equals("conserje") && txtpass.Text.Equals("conserje1"))
+
+
+                if (dt.Rows[0][2].ToString() == "Administrador")
+                {
+                    MessageBox.Show(" Bienvenido Administrador");
+                    SelectMenu sm = new SelectMenu();
+                    menuLogin menul = new menuLogin();
+                    sm.Show();
+                    this.Hide();
+
+                }
+                else if (dt.Rows[0][2].ToString() == "Conserje")
                 {
                     MessageBox.Show(" Bienvenido Conserje");
-                    menuConserje menuc = new menuConserje();
+                    SelectMenuCon menuc = new SelectMenuCon();
                     menuLogin menul = new menuLogin();
                     menuc.Show();
                     this.Hide();
 
                 }
-                else
+                if (dt.Rows[0][2].ToString() == "Residente")
                 {
-                    MessageBox.Show("Revise sus credenciales e intenete nuevamente");
+                    MessageBox.Show(" Bienvenido Conserje");
+                    SelectMenuCon menuc = new SelectMenuCon();
+                    menuLogin menul = new menuLogin();
+                    menuc.Show();
+                    this.Hide();
 
                 }
+                else if (dt.Rows[0][2].ToString() == "Visita")
+                {
+                    MessageBox.Show(" Bienvenido Conserje");
+                    SelectMenuCon menuc = new SelectMenuCon();
+                    menuLogin menul = new menuLogin();
+                    menuc.Show();
+                    this.Hide();
+                }
+
+
+
+
 
             }
+
+
+       
+
+        }
+
+        private void btningresar_Click(object sender, EventArgs e)
+        {
+
+
+            string login_pass = txtpass.Text;
+            MD5 md5 = MD5.Create();
+            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(login_pass);
+            byte[] hash = md5.ComputeHash(inputBytes);
+            login_pass = BitConverter.ToString(hash).Replace("-", "");
+
+            txtpass.Text = login_pass;
+
+            Autentif(txtuser.Text, txtpass.Text);
+            registrador.nombreRegistrador = txtuser.Text;
+
+
+
+
+            //if (txtuser.Text.Equals("admin") && txtpass.Text.Equals("admin1"))
+            //{
+            //    MessageBox.Show(" Bienvenido Administrador");
+            //    SelectMenu sm = new SelectMenu();
+            //    menuLogin menul = new menuLogin();
+            //    sm.Show();
+            //    this.Hide();
+
+            //}
+            //else
+            //{
+            //    if (txtuser.Text.Equals("conserje") && txtpass.Text.Equals("conserje1"))
+            //    {
+            //        MessageBox.Show(" Bienvenido Conserje");
+            //        SelectMenuCon menuc = new SelectMenuCon();
+            //        menuLogin menul = new menuLogin();
+            //        menuc.Show();
+            //        this.Hide();
+
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Revise sus credenciales e intenete nuevamente");
+
+            //    }
+
+            //}
 
 
 
@@ -105,13 +192,13 @@ namespace FacialRecognition
             try
             {
 
-                if (txtpass.Text != "")
-                {
-                    txtpass.Text = "";
-                    txtpass.ForeColor = System.Drawing.Color.DarkBlue;
+                lblPass.Hide();
 
-                    txtpass.UseSystemPasswordChar = true;
-                }
+
+
+         
+               
+
 
 
             }
@@ -126,12 +213,7 @@ namespace FacialRecognition
 
         private void txtpass_Leave(object sender, EventArgs e)
         {
-            if (txtpass.Text == "")
-            {
-                txtpass.Text = "CONTRASEÑA";
-                txtpass.ForeColor = System.Drawing.Color.DimGray;
-                txtpass.UseSystemPasswordChar = false;
-            }
+            lblPass.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -155,6 +237,21 @@ namespace FacialRecognition
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://iscav-web.com/");
+        }
+
+        private void lblPass_MouseEnter(object sender, EventArgs e)
+        {
+            lblPass.Hide();
+        }
+
+        private void lblPass_MouseLeave(object sender, EventArgs e)
+        {
+            lblPass.Show();
+        }
     }
     public static class validador
     {
@@ -164,6 +261,11 @@ namespace FacialRecognition
     public static class numDepto
     {
         public static string nDepto { get; set; }
+    }
+
+    public static  class registrador
+    {
+        public static string nombreRegistrador { get; set; }
     }
 
     public static class numEstacionamiento

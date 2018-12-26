@@ -77,10 +77,21 @@ namespace FacialRecognition
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
+            modPersona p = new modPersona();
+            SelectMenuCon c = new SelectMenuCon();
             SelectMenu sm = new SelectMenu();
-            sm.Show();
-            this.Hide();
-            
+            if (FacialRecognition.validador.validarDetec == "Persona")
+            {
+                sm.Show();
+                this.Hide();
+            }
+            else
+            {
+
+                c.Show();
+            }
+
+          
         }
 
         private void btnDetpo1_Click(object sender, EventArgs e)
